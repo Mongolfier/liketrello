@@ -1,8 +1,12 @@
+import Nav from "../../components/Nav/Nav";
 import "./Main.scss";
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <div>
+      <Nav />
+      Main
+    </div>
   );
 }
 
